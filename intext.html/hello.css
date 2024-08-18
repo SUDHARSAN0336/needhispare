@@ -1,0 +1,159 @@
+*{
+        padding: 0%;
+        margin: 0%;
+    }
+.navbar{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-right: 2px;
+
+}
+.search-container input[type="text"] {
+  width: calc(100% - 50px);
+  padding: 10px;
+  border:none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+.search-container button {
+  width: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-container button:hover {
+ background-color: #575757; 
+ padding: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Navbar container */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Navbar list */
+.side-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Navbar items */
+.side-navbar li {
+  margin: 0  15px;
+}
+
+/* Navbar links */
+.side-navbar a {  
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px ;
+}
+
+/* Navbar links on hover */
+.side-navbar a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+main {
+  padding: 20px;
+}
+
+.accessories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.accessory {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.accessory a{
+  text-decoration: none;
+  color: #333;
+}
+.accessory img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.navbar-menu-toggle{
+  display: none;
+  margin: 5px;
+}
+/* Media query*/
+@media screen and (max-width:650px) {
+  .navbar-menu-toggle{
+    display: block;
+  }
+  .side-navbar{
+    display: none;
+  }
+}
+.side-nav{
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+ padding: 10px;
+  top: 0;
+  left:-60%;
+  color: #f4f4f4;
+  position: fixed;
+  text-align: right;
+  transition: 2s;
+}
+.side-navbar-link{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 5px;
+  padding: 15px;
+}
+.side-navbar-link:hover{
+  background-color: #575757;
+  border-radius: 3px;
+}
+.fa-solid:hover{
+  background-color: #575757;
+  border-radius: 3px;
+}

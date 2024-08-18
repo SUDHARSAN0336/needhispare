@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+font-family: "Roboto", sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+padding-right: 2px;
+
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+/* Navbar container */
+nav {
+background-color: #333;
+color: #fff;
+}
+
+/* Navbar list */
+.side-navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+/* Navbar items */
+.side-navbar li {
+margin: 0 15px;
+}
+
+/* Navbar links */
+.side-navbar a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+padding: 5px ;
+}
+
+/* Navbar links on hover */
+.side-navbar a:hover {
+background-color: #575757;
+border-radius: 4px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.container h2 {
+    color: #333;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+}
+p {
+    margin: 0 0 20px;
+}
+.services, .team {
+    margin-top: 20px;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+footer p{
+    margin: 0%;
+}
+.navbar-menu-toggle{
+    display: none;
+    margin: 5px;
+  }
+  /* Media query*/
+  @media screen and (max-width:650px) {
+    .navbar-menu-toggle{
+      display: block;
+    }
+    .side-navbar{
+      display: none;
+    }
+  }
+  .side-nav{
+    width: 50%;
+    height: 100%;
+    background-color: #333;
+   padding: 10px;
+    top: 0;
+    left:-60%;
+    color: #f4f4f4;
+    position: fixed;
+    text-align: right;
+    transition: 2s;
+  }
+  .side-navbar-link{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 5px;
+    padding: 15px;
+  }
+  .side-navbar-link:hover{
+    background-color: #575757;
+    border-radius: 3px;
+  }
+  .fa-solid:hover{
+    background-color: #575757;
+    border-radius: 3px;
+  }
